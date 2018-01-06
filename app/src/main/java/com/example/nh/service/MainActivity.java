@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
+// add internet permission in the android manifest
 public class MainActivity extends AppCompatActivity {
 private Button start;
 private Button stop;
