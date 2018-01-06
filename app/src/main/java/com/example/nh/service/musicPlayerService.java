@@ -39,4 +39,10 @@ public class musicPlayerService extends Service{
     public int onStartCommand(Intent intent, int flags, int startId) {
         return START_STICKY;
     }
+
+    @Override
+    public void onDestroy() {
+        player.stop();
+        player.release();
+    }
 }
